@@ -31,7 +31,7 @@ After building your project, go to the following paths where the splash screen f
 1. **Copy both files** **`splash_image_def.xml | splash_image_def-v21.xml`** from this folder and paste
 it into a new directory in your project (e.g., **`<YourProjectDirectory>\res\theme`**).  
   
-   1.2  **Open both files in Delphi IDE** and add the following line inside each file:
+   1.2  **Open both files in Delphi IDE** and add the following line inside each file:  
       ```pascal
       android:scaleType="centerInside"
       ```
@@ -43,37 +43,37 @@ it into a new directory in your project (e.g., **`<YourProjectDirectory>\res\the
       Don’t forget to set the remote path for the new files according to the unchecked ones.
        That’s it! **Clean&Rebuild** and deploy your project, and you’ll see your splash image properly centered on all devices without any stretching! 
 
-**Finally, Modified splash_image_def.xml should look like this:**  
-      ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
-        <item android:drawable="@color/splash_background" />
-        <item>
-            <bitmap
-                android:src="@drawable/splash_image"
-                android:antialias="true"
-                android:dither="true"
-                android:filter="true"
-                android:gravity="center"
-                android:scaleType="centerInside"
-                android:tileMode="disabled"/>
-        </item>
-    </layer-list>
-     ```
+**Finally,Modified splash_image_def.xml should look like this:**  
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+  <item android:drawable="@color/splash_background" />
+  <item>
+      <bitmap
+          android:src="@drawable/splash_image"
+          android:antialias="true"
+          android:dither="true"
+          android:filter="true"
+          android:gravity="center"
+          android:scaleType="centerInside"
+          android:tileMode="disabled"/>
+  </item>
+</layer-list>
+```
 **Modified splash_image_def-v21.xml should look like this:**  
-      ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-        <item android:drawable="@color/splash_background" />
-        <item
-            android:gravity="center"
-            android:scaleType="centerInside"
-            android:drawable="@drawable/splash_vector">
-        </item>
-    </layer-list
-     ```
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splash_background" />
+    <item
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:drawable="@drawable/splash_vector">
+    </item>
+</layer-list
+ ```
   
-
+  
 This should solve the stretching issue and provide a visually appealing splash screen for your users.
 
 ---
