@@ -13,6 +13,8 @@ Welcome to **Delphi Android Tips**, a plain-text guide with essential tips for b
  If you've ever generated Android splash screen images using Delphi IDE and noticed they appear stretched,  
  here's a simple way to fix that and ensure your splash image is always centered without distortion.
 
+ <img width="260" alt="Test" src="https://github.com/user-attachments/assets/9d142610-8a44-4b14-9f3e-e196defa8aed" />
+
  **Solution:**  
  To fix the stretched splash images, follow these steps:
 
@@ -74,11 +76,13 @@ it into a new directory in your project (e.g., **`<YourProjectDirectory>\res\the
  ```
   
   
-This should solve the stretching issue and provide a visually appealing splash screen for your users.
+This should solve the stretching issue and provide a visually appealing splash screen for your users.  
+
+<img width="224" alt="Test Fixed" src="https://github.com/user-attachments/assets/2e20c459-f165-4a3e-a72b-cc526ca05140" />
 
 ---
 
-## Closing Notes
+## Closing Note:  
 
 We hope this tip helps you improve your Delphi Android app development experience. Stay tuned for more tips!
 
