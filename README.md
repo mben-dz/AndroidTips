@@ -16,6 +16,8 @@ Welcome to **Delphi Android Tips**, a plain-text guide with essential tips for b
  <img width="260" alt="Test" src="https://github.com/user-attachments/assets/9d142610-8a44-4b14-9f3e-e196defa8aed" />
 
  **Solution:**  
+ you can see the video tutorial on my youtube channel [here](https://www.youtube.com/watch?v=8CQirJtW390)  
+ ----  
  To fix the stretched splash images, follow these steps:
 
 ==> **Create a custom splash image definition:**
