@@ -297,4 +297,6 @@ To make your USB cables last longer:
 
 Just run `adb connect IP:5555` again to reconnect!
 
+developer.android Doc : [Here](https://developer.android.com/tools/adb#wireless).
+
 </details>
