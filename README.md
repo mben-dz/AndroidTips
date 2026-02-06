@@ -171,6 +171,12 @@ Tired of buying new USB debug cables every few months because they stop working 
    ```
    connected to 192.168.1.xxx:5555
    ```
+  if not succeed and doesn't work for you, reset your adb host:
+   ```
+   adb kill-server
+   ```
+  Then start over from the beginning.
+  
 
 #### 8. **Verify Connection**
 
