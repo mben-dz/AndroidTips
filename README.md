@@ -299,4 +299,10 @@ Just run `adb connect IP:5555` again to reconnect!
 
 developer.android Doc : [Here](https://developer.android.com/tools/adb#wireless).
 
+## Closing Note:  
+
+We hope this tip helps you improve your Delphi Android app development experience. Stay tuned for more tips!
+
+Happy coding! 🚀
+
 </details>
