@@ -158,7 +158,7 @@ Tired of buying new USB debug cables every few months because they stop working 
 
 #### 6. **Disconnect USB Cable**
    
-   Now you can safely unplug the cable!
+   Now you can safely unplug the cable after running this command bellow successfully..
 
 #### 7. **Connect Wirelessly**
 
